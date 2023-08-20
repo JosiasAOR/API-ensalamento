@@ -1,6 +1,6 @@
 const pg = require("pg")
 
-const database = new pg.Client("postgres://ftefpfjg:NZ8XU6KM5IK38cWCcs1qc_7SAxRpgrpt@silly.db.elephantsql.com/ftefpfjg")
+const database = new pg.Client("postgres://lbfhwcvc:eLlVMIU7yALI1B168llYYrlxNM47pKjH@silly.db.elephantsql.com/lbfhwcvc")
 
 database.connect((erro)=>{
 if(erro){
