@@ -1,6 +1,7 @@
 const pg = require("pg")
+require('dotenv').config()
 
-const database = new pg.Client("postgres://lbfhwcvc:eLlVMIU7yALI1B168llYYrlxNM47pKjH@silly.db.elephantsql.com/lbfhwcvc")
+const database = new pg.Client(process.env.DATABASE)
 
 database.connect((erro)=>{
 if(erro){
