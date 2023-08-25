@@ -10,5 +10,4 @@ router.post('/cadastrar', controller2.cadastroProfessores)
 router.delete('/deletar/:id', controller3.deletarProfessor)
 router.put('/atualizar/:id', controller4.atualizarProfessores)
 
-
 module.exports = router
